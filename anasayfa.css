@@ -1,0 +1,127 @@
+/* css kodları*/
+
+body,
+h1,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+body {
+    background-color: #F5F5DC;
+}
+
+.menu-ust {
+    background-color: #F4A460;
+    height: 60px;
+}
+
+#logo {
+    float: left;
+    width: 350px;
+    margin-left: 30px;
+}
+
+#logo h1 {
+    color: white;
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    width: 120px;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    background: #FFF5EE;
+    display: block;
+    color: #A0522D;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 2px solid #D2B48C;
+    border-left: 1px solid #D2691E;
+    padding: 15px;
+}
+
+.menu ul li ul li a {
+    background: #D2691E;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}
+
+.menu li a:hover {
+    background: #F4A460;
+    transition: .5s;
+}
+
+.menu ul li ul li a:hover {
+    padding-left: 15px;
+}
+
+.sayfa {
+    width: 960px;
+    margin: 5 px auto;
+    background-color: azure;
+}
+
+.img {
+    float: left;
+}
+
+.yazi {
+    float: left;
+    width: 540px;
+    margin-left: 20px;
+}
+
+.yazi h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.yazi p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.alt {
+    background-color: #FFE4C4;
+    height: 150px;
+}
+
+.alt h1 {
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.image {
+    text-align: center;
+    display: block;
+}
+
+.temizle {
+    clear: both;
+}
